@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <title>
+            IT5007 News Website
+        </title>
+        <link rel="stylesheet" href="it5007.css">
+        <script src="it5007.js"></script>
+    </head>
+    <body onload="newsfetch(); loadScript();">
+            <h1>IT5007 News Website</h1>
+            <nav>
+                <ul>
+                    <li><a href="https://news.google.com.sg/">News</a></li>
+                    <li><a href="https://www.youtube.com/">Videos</a></li>
+                    <li><a href="https://www.google.com/imghp?hl=en">Images</a></li>
+                </ul>
+            </nav>
+            
+            <div id="container">
+                <div id="first">
+                    <div id="firsta" class="news">
+                            <table id="firstatable">
+                                <thead>
+                                    <tr><th>Global News</th></tr>
+                                </thead>
+                                <tbody>
+                                    
+                                </tbody>
+                            </table>
+                    </div>
+                    <div id="firstb" class="news">
+                        <table>
+                            <thead>
+                                <tr><th>Local News</th></tr>
+                            </thead>
+                            <tbody>
+                                <tr><td>News 1</td></tr>
+                                <tr><td>News 2</td></tr>
+                                <tr><td>News 3</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div id="second">
+                    <h2>Number guessing game</h2>
+
+                    <p>We have selected a random number between 1 and 100. See if you can guess it in 10 turns or fewer. We'll tell you if your guess was too high or too low.</p>
+
+                    <div class="form">
+                        <label for="guessField">Enter a guess: </label>
+                        <input type="text" id="guessField" class="guessField">
+                        <input type="submit" value="Submit guess" class="guessSubmit">
+                    </div>
+
+                    <div class="resultParas">
+                        <p class="result"></p>
+                        <p class="lowOrHi"></p>
+                    </div>
+                </div>
+                <div id="third">
+                    <div id="thirda" class="news">
+                        <table>
+                            <thead>
+                                <tr><th>New News</th></tr>
+                            </thead>
+                            <tbody>
+                                <tr><td>News 1</td></tr>
+                                <tr><td>News 2</td></tr>
+                                <tr><td>News 3</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div id="thirdb" class="news">
+                        <table>
+                            <thead>
+                                <tr><th>Old News</th></tr>
+                            </thead>
+                            <tbody>
+                                <tr><td>News 1</td></tr>
+                                <tr><td>News 2</td></tr>
+                                <tr><td>News 3</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>    
+    </body>
+</html>
